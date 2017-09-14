@@ -121,17 +121,10 @@ $(function() {
 			$('html, body').stop().animate({scrollTop: sectionTopCord}, 'slow', 'swing');
 		});
 
+		$('.services-info-eqh').matchHeight();
+
 
 	});
-
-	
-
-  	
-	setTimeout(function() {
-		$('.services-info-eqh').matchHeight();
-	}, 100);
-	
-
 
 
 });
