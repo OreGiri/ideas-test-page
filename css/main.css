@@ -677,8 +677,8 @@ h2, .h2 {
       position: relative; }
       .modalwindow .modalwindow-content .imgbox img {
         display: block;
-        max-height: 600px;
-        max-width: 900px;
+        max-height: 450px;
+        max-width: 700px;
         margin: auto; }
       .modalwindow .modalwindow-content .imgbox .modalwindow-close {
         position: absolute;
@@ -958,7 +958,13 @@ footer .social {
     padding-left: 15px;
     padding-right: 15px; }
   .s-contacts .info .info-contacts .info-contacts-address .info-contacts-address-map #googlemap {
-    margin-left: 0; } }
+    margin-left: 0; }
+  .modalwindow .modalwindow-content .imgbox img {
+    max-width: 500px; } }
+
+@media only screen and (max-width: 650px) {
+  .modalwindow .modalwindow-content .imgbox img {
+    max-width: 360px; } }
 
 /* Extra Small Screen*/
 @media only screen and (max-width: 480px) {
@@ -986,7 +992,9 @@ footer .social {
   .info {
     padding-bottom: 20%; }
   .social ul li {
-    margin: 0px 10px 0px 10px; } }
+    margin: 0px 10px 0px 10px; }
+  .modalwindow .modalwindow-content .imgbox img {
+    max-width: 300px; } }
 
 @media only screen and (max-width: 400px) {
   .modalwindow .modalwindow-content .imgbox img {
@@ -1002,6 +1010,14 @@ footer .social {
 
 @media only screen and (max-width: 320px) {
   /**/ }
+
+@media only screen and (max-height: 700px) {
+  .modalwindow .modalwindow-content .imgbox img {
+    max-height: 320px; } }
+
+@media only screen and (max-height: 500px) {
+  .modalwindow .modalwindow-content .imgbox img {
+    max-height: 250px; } }
 
 @media only screen and (max-height: 414px) {
   .cover {
