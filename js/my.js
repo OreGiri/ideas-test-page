@@ -92,6 +92,10 @@ $(function() {
 				setTimeout(function() {
 					th.find("button")[0].innerHTML = "Send";
 					th.trigger("reset");
+					var fields = document.querySelectorAll('input, textarea');
+					for (var i = 3; i < fields.length; i++) {
+						fields[i].style.backgroundColor = "#68A097";
+					}
 				}, 3000);
 			});
 			return false;
